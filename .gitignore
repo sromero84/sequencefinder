@@ -1,6 +1,10 @@
+.idea/
 node_modules/
 bower_components/
 *.log
 
 build/
 dist/
+
+*.pyc
+*__pycache__/
