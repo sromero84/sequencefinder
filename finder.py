@@ -279,4 +279,3 @@ class SequenceFinder(object):
         self.calculate_distances(filename=distances_file)
         self.calculate_clusters()
         self.sequences = self.find_sequences()
-        self.print_results()
