@@ -1,6 +1,5 @@
 import hashlib
 import json
-import os
 import statistics
 import sys
 from datetime import datetime
@@ -8,7 +7,7 @@ from decimal import Decimal
 
 from pyjarowinkler import distance
 
-SIMILAR_THRESHOLD = os.environ.get('SIMILAR_THRESHOLD') or 0.85
+SIMILAR_THRESHOLD = 0.85
 TIMING_MAX_DEVIATION_DAYS = 3  # max deviation in transactions intervals
 TIMING_MIN_DAYS = 4  # minimum distance between two transactions
 

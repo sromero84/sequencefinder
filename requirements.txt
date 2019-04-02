@@ -1,0 +1,1 @@
+pyjarowinkler==1.8
